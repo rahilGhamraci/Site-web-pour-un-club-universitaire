@@ -1,0 +1,27 @@
+
+Vous trouverez le dossier contenant tous nos fichiers du projet (.html,.css,. php,. js) 
+ nommé projet
+ainsi que le script sql de  notre base de données 
+dans le dossier sql+explications
+
+
+Quelques remarques importantes et nécessaires pour l'exécution :
+
+1/Vous devez mettre notre dossier "projet" dans le dossier
+ C:/wamp64/www ( si vous utilisez le wamp sinon dans le dossier 
+correspondant dans le xamp) 
+
+2/l'importation de notre script sql (qui se trouve dans le dossier sql+explications)
+  au niveau du phpMyadmin
+ 
+3/ pour l'envoi du mail on a utilisé sendmail que vous trouverez dans le dossier sql+explications
+ et qui nécessite la configuration des fichier sendmail.ini et php.ini 
+que vous trouverez aussi dans le meme dossier( c des fichiers .txt pour que vous puissiez 
+copier leurs contenu et les coller dans vos fichiers)
+sendmail.ini et php.ini
+
+Tout marche bien à notre niveau donc si vous trouverez n'importe quel problème 
+( qui peut être du à la configuration des fichiers ou bien l'importation du 
+fichier script)  veuillez nous contacter svp pour qu'on puisse vous aider lors 
+de l'exécution 
+On espère que ces remarques vous aideront à exécuter facilement notre site 

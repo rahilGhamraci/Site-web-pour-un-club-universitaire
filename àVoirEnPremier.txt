@@ -1,0 +1,29 @@
+
+Vous trouverez le fichier BabaAhmed_Ghamraci.zip contenant tous nos fichiers du projet (.html,.css,. php,. js) dans un dossier nommé projet
+ainsi que le script sql de  notre base de données dans le dossier SQL+Explications
+
+
+Quelques remarques importantes et nécessaires pour l'exécution :
+
+1/Vous devez décompresser notre fichier BabaAhmed_Ghamraci.zip dans le dossier www du wampserver /* exemple C:/wamp64/www */  
+( si vous utilisez le wamp sinon dans le dossier correspondant dans le xamp) 
+et pour l'exécuter veuillez taper le lien suivant sur le navigateur CHROME http://localhost/BabaAhmed_Ghamraci/projet/htmlphp/Accueil.html 
+
+2/l'importation de notre script sql (qui se trouve dans le dossier SQL+Explications)
+  au niveau du phpMyadmin
+ 
+
+3/ pour l'envoi du mail on a utilisé sendmail que vous trouverez dans le dossier SQL+Explications (sendmail.zip), aprés l'avoir telecharger et le décompresser  
+dans l'emplacement du wamp64 /* exemple C:/wamp64 */  
+vous copier le  contenu du sendmail.txt (qui se trouve dans le dossier SQL+Explications) dans le fichier  sendmail.ini qui est contenun dans le chemin ..../wamp64/sendmail ( le fichier que vous avez decompressé), Vous devez remplir ces deux lignes ( contenues dans sendmail.ini qui lui meme est se trouve dans ..../wamp64/sendmail)
+auth_username=
+auth_password=
+Avec votre adresse et mot de passe respectivement
+vous devez aussi copier le contenu du phpini.txt (que vous trouverez dans le dossier SQL+Explications) dans php.ini , et preciser le chemin du sendmail dans le php.ini
+exemple: sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"
+comme dernière etape faut verifier que le module apache : ssl_module est activé et les extentions du php openssl et sockets sont aussi activés
+
+Tout marche bien à notre niveau donc si vous trouverez n'importe quel problème 
+( qui peut être du à la configuration des fichiers ou bien l'importation du fichier script)  
+veuillez nous contacter svp pour qu'on puisse vous aider lors de l'exécution 
+On espère que ces remarques vous aideront à exécuter facilement notre site 

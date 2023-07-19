@@ -1,0 +1,71 @@
+
+body{
+
+    background-image:url("../photo/5490374.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    margin:0;
+    overflow:hidden;
+    position:relative;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    width:100%;
+    }
+    
+    #container{
+    
+    margin:200px 100px 200px 500px;
+       width:50%;
+       position:absolute;
+       font-size:30px;
+    }
+        
+    
+     .curved{
+    
+    width:100%;
+    margin-top:30em;
+     margin-left: 0em;
+    
+    position:absolute;
+    
+    
+    
+    
+     }
+     
+     
+     .link{
+         color: white;
+         font-size: 16px;
+         text-decoration: none;
+        }
+        
+   
+
+
+.resaux img{
+    width: 34px;
+ }
+ .resaux{
+    padding-top: 0px;
+    width: 86%;
+    height: 50px;
+    opacity: 0.9;
+    position: relative;
+    margin-top: 38em;
+    margin-left: 21em;
+ 
+ }
+    
+    #id1,#id2,#id3,#id4{
+    
+    display:inline;
+    margin:50px;}
+    
+    .container1{
+    position:relative;
+    padding:0;
+    
+    width:100%;
+    }
+ 
